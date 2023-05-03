@@ -4,6 +4,9 @@
 
 brew install mc croc cask tree wifi-password speedtest-cli htop nmap wget tldr jq bat moc gh
 
+brew tap leoafarias/fvm
+brew install fvm
+
 echo "alias editar='mcedit'" | tee -a ~/.zshrc > /dev/null
 echo "alias arbol='tree -L 1'" | tee -a ~/.zshrc > /dev/null
 
@@ -71,8 +74,6 @@ git config --global user.name "mal2tin"
 git config --global user.email "msmith@gnuinos.com.ar"
 git config --global init.defaultBranch main
 git config --global pull.rebase true
-//git config --global core.editor mcedit
 git config --global core.editor "code --wait"
-//echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
 <https://github.com/fwcd/brew-pkgs>
