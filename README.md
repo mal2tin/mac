@@ -23,7 +23,7 @@ Instalar todo lo necesario de la appstore (fijarse lo ya instalado en el pasado)
 
 brew tap leoafarias/fvm
 
-brew install mc croc cask tree wifi-password speedtest-cli htop nmap wget tldr jq bat moc gh lcov fvm gh
+brew install mc croc cask tree wifi-password speedtest-cli htop nmap wget tldr jq bat moc gh lcov fvm gh scrcpy
 
 brew install --cask appcleaner
 brew install --cask avg-antivirus
