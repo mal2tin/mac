@@ -2,7 +2,7 @@
 
 <https://www.youtube.com/watch?v=Ns_nLVfpNWQ> (Formatear)
 
-brew install mc croc cask tree wifi-password speedtest-cli htop nmap wget tldr jq bat moc gh
+brew install mc croc cask tree wifi-password speedtest-cli htop nmap wget tldr jq bat moc gh lcov
 
 brew tap leoafarias/fvm
 brew install fvm
