@@ -25,7 +25,7 @@ brew tap leoafarias/fvm
 
 brew install bat cask croc fvm gh htop jq lcov mc moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
 
-brew install --cask appcleaner avg-antivirus balenaetcher dbeaver-community deepl deluge discord docker epic-games firebase-cli firefox flutter gimp google-chrome grammarly iterm2 jetbrains-toolbox keycastr libreoffice mamp onlyoffice postman steam sweet-home3d teamviewer visual-studio-code vlc
+brew install --cask appcleaner avg-antivirus balenaetcher cakebrew dbeaver-community deepl deluge discord docker epic-games firebase-cli firefox flutter gimp google-chrome grammarly iterm2 jetbrains-toolbox keycastr libreoffice mamp onlyoffice postman steam sweet-home3d teamviewer visual-studio-code vlc
 
 google drive hik-connect ntfs for mac paragon winbox with wine devel
 
