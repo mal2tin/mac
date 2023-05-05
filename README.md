@@ -96,3 +96,8 @@ tr -d '\n' < ~/.ssh/id_ed25519.pub | pbcopy
 git clone <https://github.com/romkatv/dotfiles-public.git>
 
 <https://www.jetbrains.com/es-es/lp/mono/>
+
+## iTerm
+
+agergar shortcut para aparacer/desaparecer
+iTerm/Settings/key/hotekey
