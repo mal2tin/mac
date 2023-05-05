@@ -27,6 +27,9 @@ brew install bat cask croc fvm gh htop jq lcov mc moc nmap node tree scrcpy spee
 
 brew install --cask appcleaner avg-antivirus balenaetcher dbeaver-community deepl deluge discord docker epic-games firebase-cli firefox flutter gimp google-chrome grammarly iterm2 jetbrains-toolbox keycastr libreoffice mamp onlyoffice postman steam sweet-home3d teamviewer visual-studio-code vlc
 
+brew update && brew upgrade
+brew doctor
+
 google drive hik-connect ntfs for mac paragon winbox with wine devel
 
 android studio, pycham ce from jetbrains
