@@ -23,36 +23,11 @@ Instalar todo lo necesario de la appstore (fijarse lo ya instalado en el pasado)
 
 brew tap leoafarias/fvm
 
-brew install mc croc cask tree wifi-password speedtest-cli htop nmap wget tldr jq bat moc gh lcov fvm gh scrcpy
+brew install bat cask croc fvm gh htop jq lcov mc moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
 
-brew install --cask appcleaner
-brew install --cask avg-antivirus
-brew install --cask balenaetcher
-brew install --cask dbeaver-community
-brew install --cask deepl
-brew install --cask discord
-brew install --cask docker
-brew install --cask epic-games
-brew install --cask firefox
-brew install --cask gimp
-brew install --cask google-chrome
-brew install --cask grammarly
-brew install --cask iterm2
-brew install --cask jetbrains-toolbox
-brew install --cask keycastr
-brew install --cask libreoffice
-brew install --cask mamp
-brew install --cask onlyoffice
-brew install --cask postman
-brew install --cask steam
-brew install --cask sweet-home3d
-brew install --cask teamviewer
-brew install --cask visual-studio-code
-brew install --cask vlc
+brew install --cask appcleaner avg-antivirus balenaetcher dbeaver-community deepl deluge discord docker epic-games firebase-cli firefox flutter gimp google-chrome grammarly iterm2 jetbrains-toolbox keycastr libreoffice mamp onlyoffice postman steam sweet-home3d teamviewer visual-studio-code vlc
 
-flutter google drive hik-connect ntfs for mac paragon winbox with wine devel
-
-torrent?
+google drive hik-connect ntfs for mac paragon winbox with wine devel
 
 android studio, pycham ce from jetbrains
 
