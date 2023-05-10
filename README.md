@@ -17,6 +17,8 @@ Reinstall
 
 Instalar todo lo necesario de la appstore (fijarse lo ya instalado en el pasado)
 
+sudo softwareupdate --install-rosetta --agree-to-license
+
 ## brew
 
 /bin/bash -c "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh>)"
@@ -25,14 +27,13 @@ brew tap leoafarias/fvm
 
 brew install bat cask croc fvm gh htop jq lcov mc moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
 
-brew install --cask appcleaner avg-antivirus balenaetcher dbeaver-community deepl deluge discord docker epic-games firebase-cli firefox flutter gimp google-chrome grammarly iterm2 jetbrains-toolbox keycastr libreoffice mamp onlyoffice postman steam sweet-home3d teamviewer visual-studio-code vlc
+brew install --cask android-studio appcleaner avg-antivirus balenaetcher dbeaver-community deepl deluge discord docker epic-games firebase-cli firefox flutter gimp google-chrome grammarly iterm2 jetbrains-toolbox keycastr libreoffice mamp onlyoffice postman pycharm-ce steam sweet-home3d teamviewer visual-studio-code vlc
 
 brew update && brew upgrade
+
 brew doctor
 
 google drive hik-connect ntfs for mac paragon winbox with wine devel
-
-android studio, pycham ce from jetbrains
 
 ## zsh
 
@@ -82,7 +83,7 @@ firebase init
 ## git / github
 
 git config --global user.name "mal2tin"
-git config --global user.email "msmith@gnuinos.com.ar"
+git config --global user.email "<msmith@gnuinos.com.ar>"
 git config --global init.defaultBranch main
 git config --global pull.rebase true
 git config --global core.editor "code --wait"
