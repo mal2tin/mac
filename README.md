@@ -27,7 +27,7 @@ brew tap leoafarias/fvm
 
 brew install bat cask croc firebase-cli fvm gh htop jq lcov mc moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
 
-brew install --cask android-plataform-tools android-studio appcleaner avg-antivirus balenaetcher dbeaver-community deepl deluge discord docker epic-games firefox flutter gimp google-chrome grammarly iterm2 jetbrains-toolbox keycastr libreoffice mamp onlyoffice postman pycharm-ce steam sweet-home3d teamviewer visual-studio-code vlc
+brew install --cask android-platform-tools android-studio appcleaner avg-antivirus balenaetcher dbeaver-community deepl deluge discord docker epic-games firefox flutter gimp google-chrome grammarly iterm2 jetbrains-toolbox keycastr libreoffice mamp onlyoffice postman pycharm-ce steam sweet-home3d teamviewer visual-studio-code vlc
 
 brew update && brew upgrade
 
