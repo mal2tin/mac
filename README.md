@@ -23,11 +23,13 @@ sudo softwareupdate --install-rosetta --agree-to-license
 
 /bin/bash -c "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh>)"
 
-brew tap leoafarias/fvm
-
-brew install bat cask croc firebase-cli fvm gh htop jq lcov mc moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
+brew install bat cask croc firebase-cli gh htop jq lcov mc moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
 
 brew install --cask android-platform-tools android-studio appcleaner avg-antivirus balenaetcher dbeaver-community deepl deluge discord docker epic-games firefox flutter gimp google-chrome grammarly iterm2 jetbrains-toolbox keycastr libreoffice mamp onlyoffice postman pycharm-ce steam sweet-home3d teamviewer visual-studio-code vlc
+
+brew tap leoafarias/fvm
+brew install fvm
+brew link --overwrite dart
 
 brew update && brew upgrade
 
