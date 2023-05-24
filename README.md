@@ -75,6 +75,9 @@ Shell: install code PATH
 ## Discord
 
 cuando shares por primera vez,  better text readabillity
+<https://rogueamoeba.com/audiohijack/> instalar y luego borrar para que se instale el plugin ACE
+que permite compartir la pantalla con audio.
+En la misma web hay herramientas interesantes para audio.
 
 ## firebase
 
