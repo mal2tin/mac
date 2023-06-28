@@ -25,7 +25,9 @@ sudo softwareupdate --install-rosetta --agree-to-license
 
 brew install bat cask croc firebase-cli gh htop jq lcov mc moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
 
-brew install --cask android-platform-tools android-studio appcleaner avg-antivirus balenaetcher dbeaver-community deepl deluge discord docker epic-games firefox flutter gimp google-chrome grammarly inkscape insomnia iterm2 jetbrains-toolbox keycastr libreoffice mamp onlyoffice postman pycharm-ce steam sweet-home3d teamviewer visual-studio-code vlc
+brew install --cask android-platform-tools android-studio appcleaner avg-antivirus balenaetcher dbeaver-community deepl deluge discord docker epic-games firefox flutter gimp google-chrome grammarly inkscape insomnia iterm2 java11 jetbrains-toolbox keycastr libreoffice mamp onlyoffice postman pycharm-ce steam sweet-home3d teamviewer visual-studio-code vlc
+
+<https://adoptium.net/es/download> (alternativa para instalar Java, usar aarch64)
 
 brew tap leoafarias/fvm
 brew install fvm
