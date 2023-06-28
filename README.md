@@ -100,9 +100,9 @@ tr -d '\n' < ~/.ssh/id_ed25519.pub | pbcopy
 
 ## fonts
 
-<https://github.com/romkatv/dotfiles-public/tree/master/.local/share/fonts/NerdFonts> (USAR ESTA FUENTE)
-git clone <https://github.com/romkatv/dotfiles-public.git>
+<https://www.nerdfonts.com/>
 
+<https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Meslo.zip>
 <https://www.jetbrains.com/es-es/lp/mono/>
 
 ## iTerm
