@@ -109,3 +109,12 @@ git clone <https://github.com/romkatv/dotfiles-public.git>
 
 agergar shortcut para aparacer/desaparecer
 iTerm/Settings/key/hotekey
+
+## .zrc
+
+code .zshrc
+
+export PATH="$PATH:/Users/mal2tin/Development/flutter/bin"
+export ANDROID_HOME="$HOME/Library/Android/Sdk"
+export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
+export PATH="$PATH":"$HOME/.pub-cache/bin"
