@@ -37,7 +37,11 @@ brew update && brew upgrade
 
 brew doctor
 
-hik-connect ntfs for mac paragon winbox with wine devel
+## others
+
+hik-connect
+ntfs for mac paragon
+winbox with wine devel
 
 ## zsh
 
