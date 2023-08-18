@@ -25,7 +25,7 @@ sudo softwareupdate --install-rosetta --agree-to-license
 
 brew install bat cask croc firebase-cli gh htop jq lcov mc moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
 
-brew install --cask android-platform-tools android-studio appcleaner avg-antivirus balenaetcher calibre dbeaver-community deepl deluge discord docker epic-games firefox flutter gimp google-chrome google-drive grammarly inkscape insomnia iterm2 java jetbrains-toolbox keycastr libreoffice mamp obs onlyoffice postman pycharm-ce send-to-kindle steam sweet-home3d teamviewer visual-studio-code vlc
+brew install --cask android-platform-tools android-studio appcleaner avg-antivirus balenaetcher calibre dbeaver-community deepl deluge discord docker epic-games firefox flutter gimp google-chrome google-drive grammarly inkscape insomnia iterm2 java jetbrains-toolbox keycastr libreoffice mamp MonitorControl obs onlyoffice postman pycharm-ce send-to-kindle steam sweet-home3d teamviewer visual-studio-code vlc
 
 <https://adoptium.net/es/download> (alternativa para instalar Java, usar aarch64)
 
@@ -124,3 +124,8 @@ export PATH="$PATH:/Users/mal2tin/Development/flutter/bin"
 export ANDROID_HOME="$HOME/Library/Android/Sdk"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+## Screen
+
+MonitorControl start and add to login
+Deskpad and BetterDisplay try and decide.
