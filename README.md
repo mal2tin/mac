@@ -120,10 +120,14 @@ iTerm/Settings/key/hotekey
 
 code .zshrc
 
+alias zshconfig="code ~/.zshrc"
+alias ohmyzshconfig="p10k configure"
+
 export PATH="$PATH:/Users/mal2tin/Development/flutter/bin"
 export ANDROID_HOME="$HOME/Library/Android/Sdk"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
+export PATH="/Users/mal2tin/.local/bin:$PATH"
 
 ## Screen
 
