@@ -101,6 +101,21 @@ git config --global init.defaultBranch main
 git config --global pull.rebase true
 git config --global core.editor "code --wait"
 
+git config --global --edit
+
+[user]
+ email = <msmith@gnuinos.com.ar>
+ name = mal2tin
+[push]
+ autoSetupRemote = true
+[pull]
+ rebase = true
+[core]
+ editor = code --wait
+ excludesFile = ~/.gitignore
+[init]
+ defaultBranch = main
+
 ssh-keygen -t ed25519-sk -C "Macbook"
 tr -d '\n' < ~/.ssh/id_ed25519.pub | pbcopy
 
