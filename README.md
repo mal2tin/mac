@@ -98,7 +98,7 @@ firebase init
 git config --global user.name "mal2tin"
 git config --global user.email "<msmith@gnuinos.com.ar>"
 git config --global init.defaultBranch main
-git config --global pull.rebase true
+<!-- git config --global pull.rebase true -->
 git config --global core.editor "code --wait"
 
 git config --global --edit
@@ -108,8 +108,8 @@ git config --global --edit
  name = mal2tin
 [push]
  autoSetupRemote = true
-[pull]
- rebase = true
+<!-- [pull]
+ rebase = true -->
 [core]
  editor = code --wait
  excludesFile = ~/.gitignore
