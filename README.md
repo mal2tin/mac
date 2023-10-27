@@ -32,6 +32,7 @@ brew install --cask android-platform-tools android-studio appcleaner avg-antivir
 brew tap leoafarias/fvm
 brew install fvm
 brew link --overwrite dart
+dart pub global activate fvm
 
 brew update && brew upgrade
 
