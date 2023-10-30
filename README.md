@@ -25,7 +25,7 @@ sudo softwareupdate --install-rosetta --agree-to-license
 
 brew install bat cask croc firebase-cli gh htop jq lcov magic-wormhole mc moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
 
-brew install --cask android-platform-tools android-studio appcleaner avg-antivirus balenaetcher calibre dbeaver-community deepl deluge discord docker dotnet-sdk epic-games firefox flutter gimp google-chrome google-drive grammarly inkscape insomnia iterm2 java jetbrains-toolbox keycastr libreoffice linear-linear mamp MonitorControl obs onlyoffice postman pycharm-ce send-to-kindle slite steam sweet-home3d teamviewer unity visual-studio-code vlc
+brew install --cask android-platform-tools android-studio appcleaner avg-antivirus balenaetcher calibre dbeaver-community deepl deluge discord docker dotnet-sdk epic-games firefox gimp google-chrome google-drive grammarly inkscape insomnia iterm2 java jetbrains-toolbox keycastr libreoffice linear-linear mamp MonitorControl obs onlyoffice postman pycharm-ce send-to-kindle slite steam sweet-home3d teamviewer unity visual-studio-code vlc
 
 <https://adoptium.net/es/download> (alternativa para instalar Java, usar aarch64)
 
@@ -33,6 +33,8 @@ brew tap leoafarias/fvm
 brew install fvm
 brew link --overwrite dart
 dart pub global activate fvm
+
+fvm install stable
 
 brew update && brew upgrade
 
@@ -63,11 +65,15 @@ plugins=(git git-flow-completion zsh-autosuggestions zsh-syntax-highlighting)
 
 p10k configure (unicode to use icons)
 
-echo "alias editar='mcedit'" | tee -a ~/.zshrc > /dev/null
-echo "alias dir='tree -L 1'" | tee -a ~/.zshrc > /dev/null
+code .zshrc // open .zshrc
 
-open .zshrc
-export PATH="$PATH:/Users/mal2tin/Development/flutter/bin"
+alias editar="mcedit"
+
+alias dir="tree -L 1"
+alias zshconfig="code ~/.zshrc"
+alias ohmyzshconfig="p10k configure"
+
+export PATH="$PATH:/Users/mal2tin/fvm/versions/stable/bin"
 export ANDROID_HOME="$HOME/Library/Android/Sdk"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
@@ -131,19 +137,6 @@ tr -d '\n' < ~/.ssh/id_ed25519.pub | pbcopy
 
 agergar shortcut para aparacer/desaparecer
 iTerm/Settings/key/hotekey
-
-## .zrc
-
-code .zshrc
-
-alias zshconfig="code ~/.zshrc"
-alias ohmyzshconfig="p10k configure"
-
-export PATH="$PATH:/Users/mal2tin/Development/flutter/bin"
-export ANDROID_HOME="$HOME/Library/Android/Sdk"
-export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
-export PATH="$PATH":"$HOME/.pub-cache/bin"
-export PATH="/Users/mal2tin/.local/bin:$PATH"
 
 ## Screen
 
