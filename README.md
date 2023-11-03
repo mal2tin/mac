@@ -23,7 +23,7 @@ sudo softwareupdate --install-rosetta --agree-to-license
 
 /bin/bash -c "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh>)"
 
-brew install bat cask croc firebase-cli gh htop jq lcov magic-wormhole mc moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
+brew install bat cask croc firebase-cli gh htop jq lcov magic-wormhole mc moc nmap node rust tree scrcpy speedtest-cli tldr wget wifi-password
 
 brew install --cask android-platform-tools android-studio appcleaner avg-antivirus balenaetcher calibre dbeaver-community deepl deluge discord docker dotnet-sdk epic-games firefox gimp google-chrome google-drive grammarly inkscape insomnia iterm2 java jetbrains-toolbox keycastr libreoffice linear-linear mamp MonitorControl obs onlyoffice postman pycharm-ce send-to-kindle slite steam sweet-home3d teamviewer unity visual-studio-code vlc
 
