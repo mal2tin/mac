@@ -68,10 +68,9 @@ p10k configure (unicode to use icons)
 code .zshrc // open .zshrc
 
 alias editar="mcedit"
-
 alias dir="tree -L 1"
-alias zshconfig="code ~/.zshrc"
-alias ohmyzshconfig="p10k configure"
+alias configzsh="code ~/.zshrc"
+alias configohmyzsh="p10k configure"
 
 export PATH="$PATH:/Users/mal2tin/fvm/default/bin"
 export ANDROID_HOME="$HOME/Library/Android/Sdk"
