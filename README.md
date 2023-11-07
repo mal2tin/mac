@@ -73,7 +73,7 @@ alias dir="tree -L 1"
 alias zshconfig="code ~/.zshrc"
 alias ohmyzshconfig="p10k configure"
 
-export PATH="$PATH:/opt/homebrew/bin/flutter"
+export PATH="$PATH:/Users/mal2tin/fvm/default/bin"
 export ANDROID_HOME="$HOME/Library/Android/Sdk"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
@@ -106,7 +106,7 @@ firebase init
 git config --global user.name "mal2tin"
 git config --global user.email "<msmith@gnuinos.com.ar>"
 git config --global init.defaultBranch main
-<!-- git config --global pull.rebase true -->
+git config --global pull.rebase true
 git config --global core.editor "code --wait"
 
 git config --global --edit
