@@ -25,7 +25,7 @@ sudo softwareupdate --install-rosetta --agree-to-license
 
 brew install bat cask croc firebase-cli gh htop jq lcov magic-wormhole mc moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
 
-brew install --cask android-platform-tools appcleaner balenaetcher calibre dbeaver-community deepl deluge discord docker dotnet-sdk epic-games firefox gimp google-chrome google-drive grammarly inkscape insomnia iterm2 jetbrains-toolbox keycastr libreoffice linear-linear mamp MonitorControl obs onlyoffice postman pycharm-ce send-to-kindle slite steam sweet-home3d teamviewer visual-studio-code vlc
+brew install --cask android-platform-tools appcleaner balenaetcher dbeaver-community discord docker dotnet-sdk gimp google-chrome google-drive grammarly inkscape insomnia iterm2 jetbrains-toolbox keycastr mamp postman visual-studio-code vlc
 
 <https://adoptium.net/es/download> (alternativa para instalar Java, usar aarch64)
 
