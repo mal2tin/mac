@@ -32,17 +32,17 @@ brew install --cask android-platform-tools appcleaner balenaetcher dbeaver-commu
 brew tap leoafarias/fvm
 brew install fvm
 brew link --overwrite dart
-dart pub global activate fvm
+fvm dart pub global activate fvm
 
 fvm install stable
+fvm global stable
+
+code .zshrc // open .zshrc
+export PATH="$PATH:/Users/mal2tin/fvm/default/bin"
 
 brew update && brew upgrade
 
 brew doctor
-
-## rust
-
-curl --proto '=https' --tlsv1.2 -sSf <https://sh.rustup.rs> | sh
 
 ## others
 
@@ -62,7 +62,7 @@ git clone <https://github.com/zsh-users/zsh-autosuggestions> ${ZSH_CUSTOM:-~/.oh
 
 git clone --depth=1 <https://github.com/romkatv/powerlevel10k.git> ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-kate ~/.zshrc
+code ~/.zshrc
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(git git-flow-completion zsh-autosuggestions zsh-syntax-highlighting)
