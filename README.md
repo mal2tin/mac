@@ -23,11 +23,15 @@ sudo softwareupdate --install-rosetta --agree-to-license
 
 /bin/bash -c "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh>)"
 
-brew install bat cask croc firebase-cli gh htop jq lcov magic-wormhole mc moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
+brew install bat cask croc firebase-cli gh htop jq lcov magic-wormhole midnight-commander moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
 
 brew install --cask android-platform-tools appcleaner balenaetcher dbeaver-community discord docker dotnet-sdk gimp google-chrome google-drive grammarly inkscape insomnia iterm2 jetbrains-toolbox keycastr mamp postman visual-studio-code vlc
 
-<https://adoptium.net/es/download> (alternativa para instalar Java, usar aarch64)
+java
+curl -s "https://get.sdkman.io" | bash
+sdk install java 17.0.13-tem
+flutter config --jdk-dir=$JAVA_HOME
+
 
 brew tap leoafarias/fvm
 brew install fvm
@@ -75,15 +79,6 @@ alias editar="mcedit"
 alias dir="tree -L 1"
 alias configzsh="code ~/.zshrc"
 alias configohmyzsh="p10k configure"
-
-export PATH="$PATH:/Users/mal2tin/fvm/default/bin"
-export ANDROID_HOME="$HOME/Library/Android/Sdk"
-export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
-export PATH="$PATH":"$HOME/.pub-cache/bin"
-export PATH="$PATH:$HOME/.cargo/bin/"
-export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 ## examples
 
