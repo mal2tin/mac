@@ -23,9 +23,9 @@ sudo softwareupdate --install-rosetta --agree-to-license
 
 /bin/bash -c "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh>)"
 
-brew install bat cask croc firebase-cli gh htop jq lcov magic-wormhole midnight-commander moc nmap node tree scrcpy speedtest-cli tldr wget wifi-password
+brew install bat cask croc firebase-cli gh htop jq lcov magic-wormhole midnight-commander moc nmap node tree scrcpy speedtest-cli wget wifi-password
 
-brew install --cask android-platform-tools appcleaner balenaetcher dbeaver-community discord docker dotnet-sdk gimp google-chrome google-drive grammarly inkscape insomnia iterm2 jetbrains-toolbox keycastr mamp postman visual-studio-code vlc
+brew install --cask android-platform-tools balenaetcher dbeaver-community docker dotnet-sdk google-drive iterm2 keycastr postman visual-studio-code vlc
 
 java
 curl -s "https://get.sdkman.io" | bash
@@ -48,23 +48,14 @@ brew update && brew upgrade
 
 brew doctor
 
-## others
-
-hik-connect
-ntfs for mac paragon
-winbox with wine devel
-
 ## zsh
 
-sh -c "$(curl -fsSL <https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh>)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 git clone <https://github.com/bobthecow/git-flow-completion.git> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/git-flow-completion
-
 git clone <https://github.com/zsh-users/zsh-syntax-highlighting.git> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
 git clone <https://github.com/zsh-users/zsh-autosuggestions> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-git clone --depth=1 <https://github.com/romkatv/powerlevel10k.git> ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 code ~/.zshrc
 ZSH_THEME="powerlevel10k/powerlevel10k"
