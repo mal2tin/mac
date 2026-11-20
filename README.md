@@ -35,6 +35,7 @@ flutter config --jdk-dir=$JAVA_HOME
 curl -fsSL https://fvm.app/install.sh | bash
 code ~/.zshrc
 export PATH="/Users/mal2tin/fvm/bin:$PATH"
+export PATH="$PATH:/Users/mal2tin/fvm/default/bin"
 fvm install stable
 fvm global stable
 fvm dart pub global activate fvm (no se si hace falta)
