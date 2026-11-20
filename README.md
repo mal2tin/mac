@@ -32,21 +32,12 @@ curl -s "https://get.sdkman.io" | bash
 sdk install java 17.0.13-tem
 flutter config --jdk-dir=$JAVA_HOME
 
-
-brew tap leoafarias/fvm
-brew install fvm
-brew link --overwrite dart
-fvm dart pub global activate fvm
-
+curl -fsSL https://fvm.app/install.sh | bash
+code ~/.zshrc
+export PATH="/Users/mal2tin/fvm/bin:$PATH"
 fvm install stable
 fvm global stable
-
-code .zshrc // open .zshrc
-export PATH="$PATH:/Users/mal2tin/fvm/default/bin"
-
-brew update && brew upgrade
-
-brew doctor
+fvm dart pub global activate fvm (no se si hace falta)
 
 ## zsh
 
@@ -61,8 +52,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 p10k configure (unicode to use icons)
-
-code .zshrc
 
 ## examples
 
@@ -80,8 +69,6 @@ git config --global user.email "<msmith@gnuinos.com.ar>"
 git config --global init.defaultBranch main
 git config --global pull.rebase true
 git config --global core.editor "code --wait"
-
-git config --global --mcedit
 
 [user]
  email = <msmith@gnuinos.com.ar>
