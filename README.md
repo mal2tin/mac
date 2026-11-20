@@ -28,8 +28,8 @@ brew install bat cask croc firebase-cli gh htop jq lcov magic-wormhole midnight-
 brew install --cask balenaetcher dbeaver-community docker dotnet-sdk google-drive iterm2 keycastr postman visual-studio-code vlc font-meslo-for-powerlevel10k
 
 java
-curl -s "https://get.sdkman.io" | bash
-sdk install java 17.0.13-tem
+curl -s "https://get.sdkman.io" | zsh
+sdk install java 21.0.13.1+2-tem
 flutter config --jdk-dir=$JAVA_HOME
 
 curl -fsSL https://fvm.app/install.sh | bash
